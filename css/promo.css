@@ -1,0 +1,50 @@
+.promo {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo__inner {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.promo__title {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 76px;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+}
+
+.promo__subtitle {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.promo__subtitle span {
+  display: block;
+  font-size: 34px;
+  color: #9F6B08;
+  padding: 10px 0;
+}
+
+.promo__text {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo_arrow {
+  margin-top: auto;
+  margin-bottom: 30px;
+  align-self: center;
+}
