@@ -46,6 +46,11 @@
   max-width: 352px;
 }
 
+.info__part-img_right {
+  width: auto;
+  height: 316px;
+}
+
 .info__part--third .info__text {
   max-width: 377px;
 }
