@@ -59,3 +59,25 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 670px) {
+  .footer {
+    padding: 50px 0;
+  }
+
+  .footer__top {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__bottom {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__logo {
+    display: block;
+    padding: 20px 0;
+  }
+}

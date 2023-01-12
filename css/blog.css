@@ -82,3 +82,27 @@
 .blockquote__text {
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+
+  .blog,
+  .blog__slider {
+    margin-bottom: 50px;
+  }
+
+  .blog__item-img {
+    width: 100%;
+  }
+
+  .blog__quote {
+    flex-direction: column;
+  }
+
+  .blog__quote-box {
+    flex-basis: auto;
+  }
+
+  .blog__quote-img {
+    order: -1;
+  }
+}

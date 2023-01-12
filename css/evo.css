@@ -128,3 +128,54 @@
   display: block;
   color: #FFFFFF;
 }
+
+@media (max-width: 970px) {
+  .evo-white__inner::after {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .evo {
+    margin-bottom: 50px;
+  }
+
+  .evo-white__inner {
+    padding-top: 70px;
+  }
+
+  .evo-white__inner::before {
+    display: none;
+  }
+
+  .evo-white__video {
+    margin-top: 50px;
+  }
+
+  .evo-black__info {
+    display: block;
+  }
+
+  .evo-black__img {
+    margin-top: 130px;
+  }
+
+  .evo-black__title {
+    margin-bottom: 15px;
+  }
+
+  .evo-black__descr-list {
+    display: block;
+    text-align: center;
+  }
+
+  .evo-black__descr-list div {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .evo-black__inner::after {
+    display: none;
+  }
+}
